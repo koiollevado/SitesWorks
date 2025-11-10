@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sites Importantes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #74ABE2, #5563DE);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #fff;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+            margin-top: 50px;
+            margin-bottom: 40px;
+            font-size: 2.2em;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 25px;
+            width: 90%;
+            max-width: 1000px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.92);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+        }
+
+        a {
+            text-decoration: none;
+            color: #2a5bd7;
+            font-weight: bold;
+            font-size: 28px;
+        }
+
+        a:hover {
+            color: #1748b0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sites Importantes</h1>
+    <div class="container">
+        <div class="card"><a href="https://expert.cloud.brasil.adp.com/expert2/v5/" target="_blank">ADP Expert</a></div>
+        <div class="card"><a href="https://gestao.pontotel.com.br/#/cognito/login" target="_blank">PontoTel</a></div>
+        <div class="card"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a></div>
+        <div class="card"><a href="https://drive.google.com/drive/my-drive?pli=1" target="_blank">GDrive</a></div>
+        <div class="card"><a href="https://classroom.google.com/h" target="_blank">Treinamentos</a></div>
+        <div class="card"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdJpxKBBVCdqMtHpIgwMtIDTU9iSw8reeJRxm1gfGMGF0YLFw/viewform" target="_blank">WCB Formes</a></div>
+        <div class="card"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdqH1YhJZv1cVllRG7tCodkBJuiIl-vBUoR2peEMEJpLS4wLw/viewform?pli=1" target="_blank">GPS Formes</a></div>
+    </div>
+</body>
+</html>
